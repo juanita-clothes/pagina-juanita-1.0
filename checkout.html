@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Pago - Juanita Clothes</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #F7F3F3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #8A0E1A;
+}
+
+nav a {
+    margin-left: 25px;
+    color: #8A0E1A;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+form {
+    background: white;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 12px;
+    max-width: 500px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    border: 1px solid #BBB;
+}
+
+.btn {
+    background: #8A0E1A;
+    color: white;
+    padding: 14px 34px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Juanita Clothes</div>
+    <nav>
+        <a href="index.html">home</a>
+        <a href="tienda.html">shop</a>
+        <a href="cart.html">carrito</a>
+    </nav>
+</header>
+
+<form>
+    <h2>Finalizar pago</h2>
+
+    <label>Nombre completo</label>
+    <input type="text">
+
+    <label>Dirección</label>
+    <input type="text">
+
+    <label>Número de tarjeta</label>
+    <input type="text">
+
+    <label>Expiración</label>
+    <input type="text">
+
+    <label>CVV</label>
+    <input type="text">
+
+    <a href="index.html" class="btn">Pagar</a>
+</form>
+
+</body>
+</html>
